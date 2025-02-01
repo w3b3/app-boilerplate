@@ -1,0 +1,11 @@
+### get all
+GET {{host}}/items?id={{$uuid}}&ts={{$timestamp}}
+### get one
+GET {{host}}/items/123?id={{$uuid}}&ts={{$timestamp}}
+
+### create one
+POST {{host}}/items
+### update one
+PUT {{host}}/items/123
+### remove one
+DELETE {{host}}/items/123
